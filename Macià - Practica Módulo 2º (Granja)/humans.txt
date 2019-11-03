@@ -1,0 +1,31 @@
+
+                            
+/* TEAM */
+
+                            
+Desarrollador: Matías Tugores.
+
+                            
+Site: matiastugores.es
+
+                            
+Location: Mallorca, Islas Baleares, España
+
+                         
+						
+                 
+                        [...]
+                        
+
+                            
+/* SITE */
+
+                            
+Last update: 2019/10/30
+
+                            
+Standards: HTML5, CSS3,..
+
+
+                            
+Software: developed with brackets.

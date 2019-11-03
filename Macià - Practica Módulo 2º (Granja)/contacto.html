@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title> Contacta con Nosotros</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Krub:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" href="img/logo-favicon.ico">
+    
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+    <div class="header">
+       <div class="logo">
+           <a href="index.html">
+               <img src="img/Logo2.jpg" alt="Logo Empresa">
+           </a>
+      </div>
+        <nav>
+            <a href="index.html">Inici</a>
+            <a href="nosotros.html">Nosaltres / Qui som</a>
+            <a href="servicios.html">Qué feim - Serveis</a>
+            <a href="comentarios.html">Comentaris</a> 
+        </nav>
+    </div>
+    <div class="macia-nosotros">
+        <div class="contenido-macia-nosotros">           
+            <h2>Contacte</h2>            
+        </div>
+    </div>
+
+    <div class="contenedor">
+      
+        <div class="contacto">
+             <h2>Antonia Tauler</h2>
+             <h2>Mari Crespí</h2>
+             <h3>Sa pobla, Illes Balears</h3>
+             <h3>Tf: +34 681 66 75 53</h3>
+             <h3>E-mail: granjaescolaesmolidesapobla@gmail.com</h3>            
+        </div>  
+       <hr>
+       <div id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            <form class="form_contact" action="mailto:granjaescolaesmolidesapobla@gmail.com" method="post" enctype="text/plain" onsubmit="this.reset()"> 
+                <h3>Envia un mensaje</h3>
+                <div class="user_info">
+                    <label for="names">Nombres *</label>
+                    <input type="text" id="names" name="nombre" required>
+
+                    <label for="phone">Telefono</label>
+                    <input type="text" id="phone" name="telefono">
+
+                    <label for="email">Correo electronico *</label>
+                    <input type="text" id="email" name="correo" required>
+
+                    <label for="mensaje">Mensaje *</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+
+                    <input class="boton" type="submit" value="Enviar Mensaje" id="btnSend">
+                </div>
+            </form>
+        </div>
+          <hr>
+    
+                      
+    </div>
+    <footer class="site-footer seccion">
+        <div class="contenedor-footer">
+            <nav class="navegacion">
+                <a href="index.html">Inici</a>
+                <a href="servicios.html">Serveis / Que feim</a>
+                <a href="nosotros.html">Nosaltres / Qui som</a>
+            </nav>
+            <div class="redes">
+                <a href="https://www.facebook.com/granjaescolaesmoli/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/granja.escola_esmoli/?hl=es" target="_blank"><i class="fab fa-instagram"></i></a>
+                <p class="copyright">Todos los Derechos Reservados 2019 &copy; </p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
